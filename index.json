@@ -14,52 +14,57 @@
                 },
                 "items": [
                   {
-                    "title": "Тампа-Бэй —  Торонто",
                     "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
                     "comment_count": "1",
-                    "image_count": "3",
                     "footer": "Лучшие моменты",
+                    "image": "https://tinyurl.com/y45dls8m",
+                    "image_count": "3",
                     "nhl_gallery_item_action_link": "http://ya.ru",
+                    "title": "Тампа-Бэй —  Торонто",
                     "type": "nhl_gallery_item",
                     "username": "igorbuschina"
                   },
                   {
-                    "title": "Тампа-Бэй —  Торонто",
                     "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
                     "comment_count": "1",
-                    "image_count": "3",
                     "footer": "Матч окончен",
+                    "image": "https://tinyurl.com/yyj49o57",
+                    "image_count": "3",
                     "nhl_gallery_item_action_link": "http://ya.ru",
+                    "title": "Тампа-Бэй —  Торонто",
                     "type": "nhl_gallery_item",
                     "username": "igorbuschina"
                   },
                   {
-                    "title": "Тампа-Бэй —  Торонто",
                     "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
                     "comment_count": "1",
-                    "image_count": "3",
                     "footer": "Матч окончен",
+                    "image": "https://tinyurl.com/y45dls8m",
+                    "image_count": "3",
                     "nhl_gallery_item_action_link": "http://ya.ru",
+                    "title": "Тампа-Бэй —  Торонто",
                     "type": "nhl_gallery_item",
                     "username": "igorbuschina"
                   },
                   {
-                    "title": "Тампа-Бэй —  Торонто",
                     "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
                     "comment_count": "1",
-                    "image_count": "3",
                     "footer": "Матч окончен",
+                    "image": "https://tinyurl.com/yyj49o57",
+                    "image_count": "3",
                     "nhl_gallery_item_action_link": "http://ya.ru",
+                    "title": "Тампа-Бэй —  Торонто",
                     "type": "nhl_gallery_item",
                     "username": "igorbuschina"
                   },
                   {
-                    "title": "Тампа-Бэй —  Торонто",
                     "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
                     "comment_count": "1",
-                    "image_count": "3",
                     "footer": "Матч окончен",
+                    "image": "https://tinyurl.com/y45dls8m",
+                    "image_count": "3",
                     "nhl_gallery_item_action_link": "http://ya.ru",
+                    "title": "Тампа-Бэй —  Торонто",
                     "type": "nhl_gallery_item",
                     "username": "igorbuschina"
                   },
@@ -88,12 +93,13 @@
                 },
                 "items": [
                   {
-                    "title": "Тампа-Бэй —  Торонто",
                     "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
                     "comment_count": "1",
-                    "image_count": "3",
                     "footer": "Матч окончен",
+                    "image": "https://tinyurl.com/y45dls8m",
+                    "image_count": "3",
                     "nhl_gallery_item_action_link": "http://ya.ru",
+                    "title": "Тампа-Бэй —  Торонто",
                     "type": "nhl_gallery_item",
                     "username": "igorbuschina"
                   },
@@ -281,6 +287,21 @@
         "value": 212
       },
       "items": [
+        {
+          "$image_url": "image",
+          "alignment_vertical": "center",
+          "content_alignment_horizontal": "left",
+          "height": {
+            "type": "fixed",
+            "value": 120
+          },
+          "scale": "fit",
+          "type": "image",
+          "width": {
+            "type": "fixed",
+            "value": 240
+          }
+        },
         {
           "$text": "title",
           "font_size": 16,
