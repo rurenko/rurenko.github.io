@@ -10,55 +10,55 @@
               "div": {
                 "height": {
                   "type": "fixed",
-                  "value": 204
+                  "value": 212
                 },
                 "items": [
                   {
-                    "address": "Ул. Льва Толстого, 16",
+                    "title": "Тампа-Бэй —  Торонто",
                     "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
                     "comment_count": "1",
                     "image_count": "3",
-                    "message": "Каток в парке Горького подготовился серьезно к началу сезона.\nБудет три катка: основная площадка, детский каток и для любителей хоккея. А в выходные каток будет открыт до полуночи. И еще хорошо если",
+                    "footer": "Лучшие моменты",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "type": "nhl_gallery_item",
                     "username": "igorbuschina"
                   },
                   {
-                    "address": "Ул. Льва Толстого, 16",
+                    "title": "Тампа-Бэй —  Торонто",
                     "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
                     "comment_count": "1",
                     "image_count": "3",
-                    "message": "Каток в парке Горького подготовился серьезно к началу сезона.\nБудет три катка: основная площадка, детский каток и для любителей хоккея. А в выходные каток будет открыт до полуночи. И еще хорошо…",
+                    "footer": "Матч окончен",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "type": "nhl_gallery_item",
                     "username": "igorbuschina"
                   },
                   {
-                    "address": "Ул. Льва Толстого, 16",
+                    "title": "Тампа-Бэй —  Торонто",
                     "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
                     "comment_count": "1",
                     "image_count": "3",
-                    "message": "Каток в парке Горького подготовился серьезно к началу сезона.\nБудет три катка: основная площадка, детский каток и для любителей хоккея. А в выходные каток будет открыт до полуночи. И еще хорошо…",
+                    "footer": "Матч окончен",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "type": "nhl_gallery_item",
                     "username": "igorbuschina"
                   },
                   {
-                    "address": "Ул. Льва Толстого, 16",
+                    "title": "Тампа-Бэй —  Торонто",
                     "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
                     "comment_count": "1",
                     "image_count": "3",
-                    "message": "Каток в парке Горького подготовился серьезно к началу сезона.\nБудет три катка: основная площадка, детский каток и для любителей хоккея. А в выходные каток будет открыт до полуночи. И еще хорошо…",
+                    "footer": "Матч окончен",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "type": "nhl_gallery_item",
                     "username": "igorbuschina"
                   },
                   {
-                    "address": "Ул. Льва Толстого, 16",
+                    "title": "Тампа-Бэй —  Торонто",
                     "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
                     "comment_count": "1",
                     "image_count": "3",
-                    "message": "Каток в парке Горького подготовился серьезно к началу сезона.\nБудет три катка: основная площадка, детский каток и для любителей хоккея. А в выходные каток будет открыт до полуночи. И еще хорошо…",
+                    "footer": "Матч окончен",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "type": "nhl_gallery_item",
                     "username": "igorbuschina"
@@ -88,11 +88,11 @@
                 },
                 "items": [
                   {
-                    "address": "Ул. Льва Толстого, 16",
+                    "title": "Тампа-Бэй —  Торонто",
                     "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
                     "comment_count": "1",
                     "image_count": "3",
-                    "message": "Каток в парке Горького подготовился серьезно к началу сезона.\nБудет три катка: основная площадка, детский каток и для любителей хоккея. А в выходные каток будет открыт до полуночи. И еще хорошо…",
+                    "footer": "Матч окончен",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "type": "nhl_gallery_item",
                     "username": "igorbuschina"
@@ -278,38 +278,33 @@
       },
       "height": {
         "type": "fixed",
-        "value": 204
+        "value": 212
       },
       "items": [
         {
-          "$text": "address",
-          "font_size": 13,
+          "$text": "title",
+          "font_size": 16,
           "height": {
             "type": "wrap_content"
           },
-          "line_height": 16,
+          "line_height": 20,
           "max_lines": 1,
           "paddings": {
-            "bottom": 0,
-            "left": 0,
-            "right": 0,
-            "top": 12
+            "top": 8
           },
-          "text_color": "#80000000",
+          "text_color": "#000000",
           "type": "text"
         },
         {
-          "$text": "message",
-          "alignment_vertical": "top",
+          "$text": "footer",
           "font_size": 14,
           "height": {
-            "type": "match_parent"
+            "type": "wrap_content"
           },
-          "line_height": 20,
-          "max_lines": 6,
+          "line_height": 18,
+          "max_lines": 1,
           "paddings": {
-            "bottom": 5,
-            "top": 5
+            "top": 2
           },
           "type": "text"
         },
@@ -415,7 +410,7 @@
       ],
       "orientation": "vertical",
       "paddings": {
-        "bottom": 0,
+        "bottom": 12,
         "left": 12,
         "right": 12,
         "top": 0
@@ -423,7 +418,7 @@
       "type": "container",
       "width": {
         "type": "fixed",
-        "value": 272
+        "value": 240
       }
     },
     "title_menu": {
