@@ -14,59 +14,49 @@
                 },
                 "items": [
                   {
-                    "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
-                    "comment_count": "1",
-                    "footer": "Лучшие моменты",
+                    "first_team_logo": "https://tinyurl.com/y6rlvf9o",
+                    "footer": "Идёт 2-й перерыв",
                     "image": "https://tinyurl.com/y45dls8m",
-                    "image_count": "3",
                     "nhl_gallery_item_action_link": "http://ya.ru",
-                    "title": "Тампа-Бэй —  Торонто",
-                    "type": "nhl_gallery_item",
-                    "username": "igorbuschina"
+                    "second_team_logo": "https://tinyurl.com/y6rlvf9o",
+                    "title": "Филадельфия —  Нью-Джерси",
+                    "type": "nhl_gallery_item"
                   },
                   {
-                    "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
-                    "comment_count": "1",
+                    "first_team_logo": "https://tinyurl.com/yynfa9vc",
                     "footer": "Матч окончен",
                     "image": "https://tinyurl.com/yyj49o57",
-                    "image_count": "3",
                     "nhl_gallery_item_action_link": "http://ya.ru",
-                    "title": "Тампа-Бэй —  Торонто",
-                    "type": "nhl_gallery_item",
-                    "username": "igorbuschina"
+                    "second_team_logo": "https://tinyurl.com/yxc7vnws",
+                    "title": "Детройт — Питсбург",
+                    "type": "nhl_gallery_item"
                   },
                   {
-                    "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
-                    "comment_count": "1",
+                    "first_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "footer": "Матч окончен",
                     "image": "https://tinyurl.com/y45dls8m",
-                    "image_count": "3",
                     "nhl_gallery_item_action_link": "http://ya.ru",
+                    "second_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "title": "Тампа-Бэй —  Торонто",
-                    "type": "nhl_gallery_item",
-                    "username": "igorbuschina"
+                    "type": "nhl_gallery_item"
                   },
                   {
-                    "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
-                    "comment_count": "1",
+                    "first_team_logo": "https://tinyurl.com/yynfa9vc",
                     "footer": "Матч окончен",
                     "image": "https://tinyurl.com/yyj49o57",
-                    "image_count": "3",
                     "nhl_gallery_item_action_link": "http://ya.ru",
-                    "title": "Тампа-Бэй —  Торонто",
-                    "type": "nhl_gallery_item",
-                    "username": "igorbuschina"
+                    "second_team_logo": "https://tinyurl.com/yxc7vnws",
+                    "title": "Детройт — Питсбург",
+                    "type": "nhl_gallery_item"
                   },
                   {
-                    "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
-                    "comment_count": "1",
+                    "first_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "footer": "Матч окончен",
                     "image": "https://tinyurl.com/y45dls8m",
-                    "image_count": "3",
                     "nhl_gallery_item_action_link": "http://ya.ru",
+                    "second_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "title": "Тампа-Бэй —  Торонто",
-                    "type": "nhl_gallery_item",
-                    "username": "igorbuschina"
+                    "type": "nhl_gallery_item"
                   },
                   {
                     "tail_text_link": "Все новости района",
@@ -93,15 +83,13 @@
                 },
                 "items": [
                   {
-                    "avatar_url": "https://avatars.mds.yandex.net/get-yapic/40841/520495100-1548277370/islands-200",
-                    "comment_count": "1",
+                    "first_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "footer": "Матч окончен",
                     "image": "https://tinyurl.com/y45dls8m",
-                    "image_count": "3",
                     "nhl_gallery_item_action_link": "http://ya.ru",
+                    "second_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "title": "Тампа-Бэй —  Торонто",
-                    "type": "nhl_gallery_item",
-                    "username": "igorbuschina"
+                    "type": "nhl_gallery_item"
                   },
                   {
                     "tail_text_link": "Все новости района",
@@ -303,6 +291,39 @@
           }
         },
         {
+          "content_alignment_vertical": "center",
+          "items": [
+            {
+              "$image_url": "first_team_logo",
+              "alignment_vertical": "center",
+              "height": {
+                "type": "fixed",
+                "value": 24
+              },
+              "type": "image",
+              "width": {
+                "type": "fixed",
+                "value": 24
+              }
+            },
+            {
+              "$image_url": "second_team_logo",
+              "alignment_vertical": "center",
+              "height": {
+                "type": "fixed",
+                "value": 24
+              },
+              "type": "image",
+              "width": {
+                "type": "fixed",
+                "value": 24
+              }
+            }
+          ],
+          "orientation": "horizontal",
+          "type": "container"
+        },
+        {
           "$text": "title",
           "font_size": 16,
           "height": {
@@ -328,105 +349,6 @@
             "top": 2
           },
           "type": "text"
-        },
-        {
-          "content_alignment_vertical": "center",
-          "items": [
-            {
-              "$image_url": "avatar_url",
-              "alignment_vertical": "center",
-              "border": {
-                "corner_radius": 12
-              },
-              "height": {
-                "type": "fixed",
-                "value": 24
-              },
-              "type": "image",
-              "width": {
-                "type": "fixed",
-                "value": 24
-              }
-            },
-            {
-              "$text": "username",
-              "alignment_vertical": "center",
-              "font_size": 13,
-              "font_weight": "medium",
-              "line_height": 16,
-              "max_lines": 1,
-              "paddings": {
-                "left": 8,
-                "right": 8
-              },
-              "text_color": "#80000000",
-              "type": "text",
-              "width": {
-                "type": "fixed",
-                "value": 126
-              }
-            },
-            {
-              "alignment_vertical": "center",
-              "height": {
-                "type": "fixed",
-                "value": 24
-              },
-              "image_url": "https://api.yastatic.net/morda-logo/i/yandex-app/district/images_day.1.png",
-              "placeholder_color": "#00ffffff",
-              "type": "image",
-              "width": {
-                "type": "fixed",
-                "value": 24
-              }
-            },
-            {
-              "$text": "image_count",
-              "alignment_vertical": "center",
-              "font_size": 13,
-              "font_weight": "medium",
-              "line_height": 16,
-              "max_lines": 1,
-              "paddings": {
-                "left": 4,
-                "right": 10
-              },
-              "text_color": "#80000000",
-              "type": "text"
-            },
-            {
-              "alignment_vertical": "center",
-              "height": {
-                "type": "fixed",
-                "value": 24
-              },
-              "image_url": "https://api.yastatic.net/morda-logo/i/yandex-app/district/images_day.1.png",
-              "placeholder_color": "#00ffffff",
-              "type": "image",
-              "width": {
-                "type": "fixed",
-                "value": 24
-              }
-            },
-            {
-              "$text": "comment_count",
-              "alignment_vertical": "center",
-              "font_size": 13,
-              "font_weight": "medium",
-              "line_height": 16,
-              "max_lines": 1,
-              "paddings": {
-                "left": 4
-              },
-              "text_color": "#80000000",
-              "type": "text"
-            }
-          ],
-          "orientation": "horizontal",
-          "paddings": {
-            "bottom": 12
-          },
-          "type": "container"
         }
       ],
       "orientation": "vertical",
