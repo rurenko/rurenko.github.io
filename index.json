@@ -150,6 +150,24 @@
     ]
   },
   "templates": {
+    "footer": {
+      "$action": "footer_action_link",
+      "font_size": 12,
+      "height": {
+        "type": "wrap_content",
+        "weight": 1
+      },
+      "letter_spacing": 0.75,
+      "line_height": 16,
+      "paddings": {
+        "bottom": 13,
+        "left": 16,
+        "top": 15
+      },
+      "text_alignment_vertical": "bottom",
+      "text_color": "#80000000",
+      "type": "text"
+    },
     "gallery_tail": {
       "$action": "gallery_tail_action_link",
       "content_alignment_horizontal": "center",
@@ -233,7 +251,7 @@
           },
           "type": "tabs"
         },
-{
+        {
           "text": "ВСЕ ИГРЫ СЕГОДНЯ",
           "type": "footer"
         }
