@@ -204,34 +204,6 @@
         "value": 104
       }
     },
-    "nhl_button": {
-      "action": {
-        "$url": "nhl_button_action_link",
-        "log_id": "new_post"
-      },
-      "background": [
-        {
-          "color": "#ffdc60",
-          "type": "solid"
-        }
-      ],
-      "border": {
-        "corner_radius": 4
-      },
-      "font_size": 14,
-      "margins": {
-        "left": 16,
-        "right": 16,
-        "top": 12
-      },
-      "paddings": {
-        "bottom": 8,
-        "top": 8
-      },
-      "text": "Написать новость",
-      "text_alignment_horizontal": "center",
-      "type": "text"
-    },
     "nhl_card": {
       "background": [
         {
@@ -261,8 +233,9 @@
           },
           "type": "tabs"
         },
-        {
-          "type": "nhl_button"
+{
+          "text": "ВСЕ ИГРЫ СЕГОДНЯ",
+          "type": "footer"
         }
       ],
       "orientation": "vertical",
