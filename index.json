@@ -14,48 +14,58 @@
                 },
                 "items": [
                   {
+                    "first_team_background_color": "#fc4513",
                     "first_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "footer": "Идёт 2-й перерыв",
                     "image": "https://tinyurl.com/y45dls8m",
                     "nhl_gallery_item_action_link": "http://ya.ru",
-                    "second_team_logo": "https://tinyurl.com/y6rlvf9o",
+                    "second_team_background_color": "#CE1126",
+                    "second_team_logo": "https://tinyurl.com/yyhuazfa",
                     "title": "Филадельфия —  Нью-Джерси",
                     "type": "nhl_gallery_item"
                   },
                   {
+                    "first_team_background_color": "#E21736",
                     "first_team_logo": "https://tinyurl.com/yynfa9vc",
                     "footer": "Матч окончен",
                     "image": "https://tinyurl.com/yyj49o57",
                     "nhl_gallery_item_action_link": "http://ya.ru",
+                    "second_team_background_color": "#FCB514",
                     "second_team_logo": "https://tinyurl.com/yxc7vnws",
                     "title": "Детройт — Питсбург",
                     "type": "nhl_gallery_item"
                   },
                   {
+                    "first_team_background_color": "#fc4513",
                     "first_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "footer": "Матч окончен",
                     "image": "https://tinyurl.com/y45dls8m",
                     "nhl_gallery_item_action_link": "http://ya.ru",
-                    "second_team_logo": "https://tinyurl.com/y6rlvf9o",
-                    "title": "Тампа-Бэй —  Торонто",
+                    "second_team_background_color": "#CE1126",
+                    "second_team_logo": "https://tinyurl.com/yyhuazfa",
+                    "title": "Филадельфия —  Нью-Джерси",
                     "type": "nhl_gallery_item"
                   },
                   {
+                    "first_team_background_color": "#E21736",
                     "first_team_logo": "https://tinyurl.com/yynfa9vc",
                     "footer": "Матч окончен",
                     "image": "https://tinyurl.com/yyj49o57",
                     "nhl_gallery_item_action_link": "http://ya.ru",
+                    "second_team_background_color": "#FCB514",
                     "second_team_logo": "https://tinyurl.com/yxc7vnws",
                     "title": "Детройт — Питсбург",
                     "type": "nhl_gallery_item"
                   },
                   {
+                    "first_team_background_color": "#fc4513",
                     "first_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "footer": "Матч окончен",
                     "image": "https://tinyurl.com/y45dls8m",
                     "nhl_gallery_item_action_link": "http://ya.ru",
-                    "second_team_logo": "https://tinyurl.com/y6rlvf9o",
-                    "title": "Тампа-Бэй —  Торонто",
+                    "second_team_background_color": "#CE1126",
+                    "second_team_logo": "https://tinyurl.com/yyhuazfa",
+                    "title": "Филадельфия —  Нью-Джерси",
                     "type": "nhl_gallery_item"
                   },
                   {
@@ -83,10 +93,12 @@
                 },
                 "items": [
                   {
+                    "first_team_background_color": "#E21736",
                     "first_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "footer": "Матч окончен",
                     "image": "https://tinyurl.com/y45dls8m",
                     "nhl_gallery_item_action_link": "http://ya.ru",
+                    "second_team_background_color": "#FCB514",
                     "second_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "title": "Тампа-Бэй —  Торонто",
                     "type": "nhl_gallery_item"
@@ -294,30 +306,54 @@
           "content_alignment_vertical": "center",
           "items": [
             {
-              "$image_url": "first_team_logo",
-              "alignment_vertical": "center",
-              "height": {
-                "type": "fixed",
-                "value": 24
-              },
-              "type": "image",
-              "width": {
-                "type": "fixed",
-                "value": 24
-              }
+              "background": [
+                {
+                  "$color": "first_team_background_color",
+                  "type": "solid"
+                }
+              ],
+              "items": [
+                {
+                  "$image_url": "first_team_logo",
+                  "alignment_vertical": "center",
+                  "height": {
+                    "type": "fixed",
+                    "value": 24
+                  },
+                  "type": "image",
+                  "width": {
+                    "type": "fixed",
+                    "value": 24
+                  }
+                }
+              ],
+              "orientation": "horizontal",
+              "type": "container"
             },
             {
-              "$image_url": "second_team_logo",
-              "alignment_vertical": "center",
-              "height": {
-                "type": "fixed",
-                "value": 24
-              },
-              "type": "image",
-              "width": {
-                "type": "fixed",
-                "value": 24
-              }
+              "background": [
+                {
+                  "$color": "second_team_background_color",
+                  "type": "solid"
+                }
+              ],
+              "items": [
+                {
+                  "$image_url": "second_team_logo",
+                  "alignment_vertical": "center",
+                  "height": {
+                    "type": "fixed",
+                    "value": 24
+                  },
+                  "type": "image",
+                  "width": {
+                    "type": "fixed",
+                    "value": 24
+                  }
+                }
+              ],
+              "orientation": "horizontal",
+              "type": "container"
             }
           ],
           "orientation": "horizontal",
