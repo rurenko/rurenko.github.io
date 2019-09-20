@@ -17,6 +17,8 @@
                     "first_team_background_color": "#fc4513",
                     "first_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "footer": "Идёт 2-й перерыв",
+                    "game_bage_text": "Прямая трансляция",
+                    "game_time": "1:04:17",
                     "image": "https://tinyurl.com/y45dls8m",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#CE1126",
@@ -28,6 +30,8 @@
                     "first_team_background_color": "#E21736",
                     "first_team_logo": "https://tinyurl.com/yynfa9vc",
                     "footer": "Матч окончен",
+                    "game_bage_text": "Прямая трансляция",
+                    "game_time": "1:04:17",
                     "image": "https://tinyurl.com/yyj49o57",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#FCB514",
@@ -39,6 +43,8 @@
                     "first_team_background_color": "#fc4513",
                     "first_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "footer": "Матч окончен",
+                    "game_bage_text": "Прямая трансляция",
+                    "game_time": "1:04:17",
                     "image": "https://tinyurl.com/y45dls8m",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#CE1126",
@@ -50,6 +56,8 @@
                     "first_team_background_color": "#E21736",
                     "first_team_logo": "https://tinyurl.com/yynfa9vc",
                     "footer": "Матч окончен",
+                    "game_bage_text": "Прямая трансляция",
+                    "game_time": "1:04:17",
                     "image": "https://tinyurl.com/yyj49o57",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#FCB514",
@@ -61,6 +69,8 @@
                     "first_team_background_color": "#fc4513",
                     "first_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "footer": "Матч окончен",
+                    "game_bage_text": "Прямая трансляция",
+                    "game_time": "1:04:17",
                     "image": "https://tinyurl.com/y45dls8m",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#CE1126",
@@ -96,6 +106,8 @@
                     "first_team_background_color": "#E21736",
                     "first_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "footer": "Матч окончен",
+                    "game_bage_text": "Прямая трансляция",
+                    "game_time": "1:04:17",
                     "image": "https://tinyurl.com/y45dls8m",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#FCB514",
@@ -352,7 +364,13 @@
           "type": "nhl_game_badge"
         },
         {
-          "type": "nhl_game_vertical_spacer"
+          "type": "nhl_game_horizontal_spacer"
+        },
+        {
+          "type": "nhl_game_horizontal_spacer"
+        },
+        {
+          "type": "nhl_game_vertical_three_columns_spacer"
         },
         {
           "type": "nhl_game_teams"
@@ -361,7 +379,7 @@
           "type": "nhl_game_horizontal_spacer"
         },
         {
-          "type": "nhl_game_teams"
+          "type": "nhl_game_time"
         }
       ],
       "paddings": {
@@ -373,17 +391,33 @@
       "type": "grid"
     },
     "nhl_game_badge": {
-      "alignment_vertical": "top",
-      "column_span": 3,
+      "$text": "game_bage_text",
+      "background": [
+        {
+          "color": "#99000000",
+          "type": "solid"
+        }
+      ],
+      "border": {
+        "corner_radius": 4
+      },
       "font_size": 12,
       "height": {
         "type": "wrap_content"
       },
       "line_height": 16,
       "max_lines": 1,
-      "text": "Прямая трансляция",
+      "paddings": {
+        "bottom": 1,
+        "left": 6,
+        "right": 6,
+        "top": 3
+      },
       "text_color": "#ffffff",
-      "type": "text"
+      "type": "text",
+      "width": {
+        "type": "wrap_content"
+      }
     },
     "nhl_game_horizontal_spacer": {
       "delimiter_style": {
@@ -479,7 +513,36 @@
         "type": "wrap_content"
       }
     },
-    "nhl_game_vertical_spacer": {
+    "nhl_game_time": {
+      "$text": "game_time",
+      "background": [
+        {
+          "color": "#99000000",
+          "type": "solid"
+        }
+      ],
+      "border": {
+        "corner_radius": 4
+      },
+      "font_size": 12,
+      "height": {
+        "type": "wrap_content"
+      },
+      "line_height": 16,
+      "max_lines": 1,
+      "paddings": {
+        "bottom": 1,
+        "left": 6,
+        "right": 6,
+        "top": 3
+      },
+      "text_color": "#ffffff",
+      "type": "text",
+      "width": {
+        "type": "wrap_content"
+      }
+    },
+    "nhl_game_vertical_three_columns_spacer": {
       "column_span": 3,
       "delimiter_style": {
         "color": "#00000000"
