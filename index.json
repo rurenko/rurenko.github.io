@@ -280,7 +280,10 @@
         }
       ],
       "border": {
-        "corner_radius": 6
+        "corner_radius": 6,
+        "stroke": {
+          "color": "#E5E5E5"
+        }
       },
       "height": {
         "type": "fixed",
@@ -379,7 +382,10 @@
             }
           ],
           "orientation": "horizontal",
-          "type": "container"
+          "type": "container",
+          "width": {
+            "type": "wrap_content"
+          }
         },
         {
           "$text": "title",
