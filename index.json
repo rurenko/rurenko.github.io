@@ -291,101 +291,122 @@
       },
       "items": [
         {
-          "$image_url": "image",
-          "alignment_vertical": "center",
-          "content_alignment_horizontal": "left",
+          "background": [
+            {
+              "$image_url": "image",
+              "content_alignment_horizontal": "left",
+              "type": "image"
+            }
+          ],
           "height": {
             "type": "fixed",
-            "value": 120
+            "value": 136
           },
-          "type": "image",
-          "width": {
-            "type": "fixed",
-            "value": 240
-          }
-        },
-        {
-          "border": {
-            "corner_radius": 4
-          },
-          "content_alignment_vertical": "center",
           "items": [
             {
-              "background": [
-                {
-                  "$color": "first_team_background_color",
-                  "type": "solid"
-                }
-              ],
-              "items": [
-                {
-                  "$image_url": "first_team_logo",
-                  "alignment_vertical": "center",
-                  "height": {
-                    "type": "fixed",
-                    "value": 24
-                  },
-                  "scale": "fit",
-                  "type": "image",
-                  "width": {
-                    "type": "fixed",
-                    "value": 24
-                  }
-                }
-              ],
-              "orientation": "horizontal",
-              "paddings": {
-                "bottom": 4,
-                "left": 8,
-                "right": 8,
-                "top": 4
-              },
-              "type": "container",
-              "width": {
+              "alignment_vertical": "top",
+              "font_size": 12,
+              "height": {
                 "type": "wrap_content"
-              }
+              },
+              "line_height": 16,
+              "max_lines": 1,
+              "text": "Прямая трансляция",
+              "text_color": "#ffffff",
+              "type": "text"
             },
             {
-              "background": [
-                {
-                  "$color": "second_team_background_color",
-                  "type": "solid"
-                }
-              ],
+              "alignment_vertical": "bottom",
+              "border": {
+                "corner_radius": 4
+              },
+              "content_alignment_vertical": "center",
               "items": [
                 {
-                  "$image_url": "second_team_logo",
-                  "alignment_vertical": "center",
-                  "height": {
-                    "type": "fixed",
-                    "value": 24
+                  "background": [
+                    {
+                      "$color": "first_team_background_color",
+                      "type": "solid"
+                    }
+                  ],
+                  "items": [
+                    {
+                      "$image_url": "first_team_logo",
+                      "alignment_vertical": "center",
+                      "height": {
+                        "type": "fixed",
+                        "value": 24
+                      },
+                      "scale": "fit",
+                      "type": "image",
+                      "width": {
+                        "type": "fixed",
+                        "value": 24
+                      }
+                    }
+                  ],
+                  "orientation": "horizontal",
+                  "paddings": {
+                    "bottom": 4,
+                    "left": 8,
+                    "right": 8,
+                    "top": 4
                   },
-                  "scale": "fit",
-                  "type": "image",
+                  "type": "container",
                   "width": {
-                    "type": "fixed",
-                    "value": 24
+                    "type": "wrap_content"
+                  }
+                },
+                {
+                  "background": [
+                    {
+                      "$color": "second_team_background_color",
+                      "type": "solid"
+                    }
+                  ],
+                  "items": [
+                    {
+                      "$image_url": "second_team_logo",
+                      "alignment_vertical": "center",
+                      "height": {
+                        "type": "fixed",
+                        "value": 24
+                      },
+                      "scale": "fit",
+                      "type": "image",
+                      "width": {
+                        "type": "fixed",
+                        "value": 24
+                      }
+                    }
+                  ],
+                  "orientation": "horizontal",
+                  "paddings": {
+                    "bottom": 4,
+                    "left": 8,
+                    "right": 8,
+                    "top": 4
+                  },
+                  "type": "container",
+                  "width": {
+                    "type": "wrap_content"
                   }
                 }
               ],
               "orientation": "horizontal",
-              "paddings": {
-                "bottom": 4,
-                "left": 8,
-                "right": 8,
-                "top": 4
-              },
               "type": "container",
               "width": {
                 "type": "wrap_content"
               }
             }
           ],
-          "orientation": "horizontal",
-          "type": "container",
-          "width": {
-            "type": "wrap_content"
-          }
+          "paddings": {
+            "bottom": 8,
+            "left": 8,
+            "right": 8,
+            "top": 8
+          },
+          "type": "container"
         },
         {
           "$text": "title",
