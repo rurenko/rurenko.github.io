@@ -20,7 +20,6 @@
                     "image": "https://tinyurl.com/y45dls8m",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#CE1126",
-                    "second_team_background_color_triangle": "https://tinyurl.com/yymput7j",
                     "second_team_logo": "https://tinyurl.com/yyhuazfa",
                     "title": "Филадельфия —  Нью-Джерси",
                     "type": "nhl_gallery_item"
@@ -32,7 +31,6 @@
                     "image": "https://tinyurl.com/yyj49o57",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#FCB514",
-                    "second_team_background_color_triangle": "https://tinyurl.com/y5gsn2de",
                     "second_team_logo": "https://tinyurl.com/yxc7vnws",
                     "title": "Детройт — Питсбург",
                     "type": "nhl_gallery_item"
@@ -44,7 +42,6 @@
                     "image": "https://tinyurl.com/y45dls8m",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#CE1126",
-                    "second_team_background_color_triangle": "https://tinyurl.com/yymput7j",
                     "second_team_logo": "https://tinyurl.com/yyhuazfa",
                     "title": "Филадельфия —  Нью-Джерси",
                     "type": "nhl_gallery_item"
@@ -56,7 +53,6 @@
                     "image": "https://tinyurl.com/yyj49o57",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#FCB514",
-                    "second_team_background_color_triangle": "https://tinyurl.com/y5gsn2de",
                     "second_team_logo": "https://tinyurl.com/yxc7vnws",
                     "title": "Детройт — Питсбург",
                     "type": "nhl_gallery_item"
@@ -68,7 +64,6 @@
                     "image": "https://tinyurl.com/y45dls8m",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#CE1126",
-                    "second_team_background_color_triangle": "https://tinyurl.com/yymput7j",
                     "second_team_logo": "https://tinyurl.com/yyhuazfa",
                     "title": "Филадельфия —  Нью-Джерси",
                     "type": "nhl_gallery_item"
@@ -104,7 +99,6 @@
                     "image": "https://tinyurl.com/y45dls8m",
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#FCB514",
-                    "second_team_background_color_triangle": "https://tinyurl.com/y5gsn2de",
                     "second_team_logo": "https://tinyurl.com/y6rlvf9o",
                     "title": "Тампа-Бэй —  Торонто",
                     "type": "nhl_gallery_item"
@@ -328,6 +322,7 @@
                     "type": "fixed",
                     "value": 24
                   },
+                  "scale": "fit",
                   "type": "image",
                   "width": {
                     "type": "fixed",
@@ -339,43 +334,8 @@
               "paddings": {
                 "bottom": 4,
                 "left": 8,
-                "right": 4,
+                "right": 8,
                 "top": 4
-              },
-              "type": "container",
-              "width": {
-                "type": "wrap_content"
-              }
-            },
-            {
-              "background": [
-                {
-                  "$color": "first_team_background_color",
-                  "type": "solid"
-                }
-              ],
-              "items": [
-                {
-                  "$image_url": "second_team_background_color_triangle",
-                  "alignment_vertical": "center",
-                  "height": {
-                    "type": "fixed",
-                    "value": 32
-                  },
-                  "scale": "fit",
-                  "type": "image",
-                  "width": {
-                    "type": "fixed",
-                    "value": 8
-                  }
-                }
-              ],
-              "orientation": "horizontal",
-              "paddings": {
-                "bottom": 0,
-                "left": 4,
-                "right": 4,
-                "top": 0
               },
               "type": "container",
               "width": {
@@ -397,6 +357,7 @@
                     "type": "fixed",
                     "value": 24
                   },
+                  "scale": "fit",
                   "type": "image",
                   "width": {
                     "type": "fixed",
@@ -407,7 +368,7 @@
               "orientation": "horizontal",
               "paddings": {
                 "bottom": 4,
-                "left": 4,
+                "left": 8,
                 "right": 8,
                 "top": 4
               },
