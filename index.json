@@ -304,16 +304,7 @@
           },
           "items": [
             {
-              "alignment_vertical": "top",
-              "font_size": 12,
-              "height": {
-                "type": "wrap_content"
-              },
-              "line_height": 16,
-              "max_lines": 1,
-              "text": "Прямая трансляция",
-              "text_color": "#ffffff",
-              "type": "text"
+              "type": "nhl_game_badge"
             },
             {
               "alignment_vertical": "bottom",
@@ -448,6 +439,18 @@
         "type": "fixed",
         "value": 240
       }
+    },
+    "nhl_game_badge": {
+      "alignment_vertical": "top",
+      "font_size": 12,
+      "height": {
+        "type": "wrap_content"
+      },
+      "line_height": 16,
+      "max_lines": 1,
+      "text": "Прямая трансляция",
+      "text_color": "#ffffff",
+      "type": "text"
     },
     "title_menu": {
       "height": {
