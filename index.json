@@ -21,6 +21,7 @@
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#CE1126",
                     "second_team_logo": "https://tinyurl.com/yyhuazfa",
+                    "second_team_background_color_triangle": "https://tinyurl.com/yymput7j",
                     "title": "Филадельфия —  Нью-Джерси",
                     "type": "nhl_gallery_item"
                   },
@@ -32,6 +33,7 @@
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#FCB514",
                     "second_team_logo": "https://tinyurl.com/yxc7vnws",
+                    "second_team_background_color_triangle": "https://tinyurl.com/y5gsn2de",
                     "title": "Детройт — Питсбург",
                     "type": "nhl_gallery_item"
                   },
@@ -43,6 +45,7 @@
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#CE1126",
                     "second_team_logo": "https://tinyurl.com/yyhuazfa",
+                    "second_team_background_color_triangle": "https://tinyurl.com/yymput7j",
                     "title": "Филадельфия —  Нью-Джерси",
                     "type": "nhl_gallery_item"
                   },
@@ -54,6 +57,7 @@
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#FCB514",
                     "second_team_logo": "https://tinyurl.com/yxc7vnws",
+                    "second_team_background_color_triangle": "https://tinyurl.com/y5gsn2de",
                     "title": "Детройт — Питсбург",
                     "type": "nhl_gallery_item"
                   },
@@ -65,6 +69,7 @@
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#CE1126",
                     "second_team_logo": "https://tinyurl.com/yyhuazfa",
+                    "second_team_background_color_triangle": "https://tinyurl.com/yymput7j",
                     "title": "Филадельфия —  Нью-Джерси",
                     "type": "nhl_gallery_item"
                   },
@@ -100,6 +105,7 @@
                     "nhl_gallery_item_action_link": "http://ya.ru",
                     "second_team_background_color": "#FCB514",
                     "second_team_logo": "https://tinyurl.com/y6rlvf9o",
+                    "second_team_background_color_triangle": "https://tinyurl.com/y5gsn2de",
                     "title": "Тампа-Бэй —  Торонто",
                     "type": "nhl_gallery_item"
                   },
@@ -328,7 +334,38 @@
                 }
               ],
               "orientation": "horizontal",
-              "type": "container"
+              "type": "container",
+              "width": {
+                "type": "wrap_content"
+              }
+            },
+            {
+              "background": [
+                {
+                  "$color": "first_team_background_color",
+                  "type": "solid"
+                }
+              ],
+              "items": [
+                {
+                  "$image_url": "second_team_background_color_triangle",
+                  "alignment_vertical": "center",
+                  "height": {
+                    "type": "fixed",
+                    "value": 32
+                  },
+                  "type": "image",
+                  "width": {
+                    "type": "fixed",
+                    "value": 8
+                  }
+                }
+              ],
+              "orientation": "horizontal",
+              "type": "container",
+              "width": {
+                "type": "wrap_content"
+              }
             },
             {
               "background": [
@@ -353,7 +390,10 @@
                 }
               ],
               "orientation": "horizontal",
-              "type": "container"
+              "type": "container",
+              "width": {
+                "type": "wrap_content"
+              }
             }
           ],
           "orientation": "horizontal",
