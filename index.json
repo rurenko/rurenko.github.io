@@ -301,7 +301,6 @@
             "type": "fixed",
             "value": 120
           },
-          "scale": "fit",
           "type": "image",
           "width": {
             "type": "fixed",
@@ -309,6 +308,9 @@
           }
         },
         {
+          "border": {
+            "corner_radius": 4
+          },
           "content_alignment_vertical": "center",
           "items": [
             {
@@ -356,9 +358,15 @@
                 {
                   "$image_url": "second_team_background_color_triangle",
                   "alignment_vertical": "center",
+                  "height": {
+                    "type": "fixed",
+                    "value": 32
+                  },
+                  "scale": "fit",
                   "type": "image",
                   "width": {
-                    "type": "wrap_content"
+                    "type": "fixed",
+                    "value": 8
                   }
                 }
               ],
