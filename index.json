@@ -291,113 +291,7 @@
       },
       "items": [
         {
-          "background": [
-            {
-              "$image_url": "image",
-              "content_alignment_horizontal": "left",
-              "type": "image"
-            }
-          ],
-          "height": {
-            "type": "fixed",
-            "value": 136
-          },
-          "items": [
-            {
-              "type": "nhl_game_badge"
-            },
-            {
-              "alignment_vertical": "bottom",
-              "border": {
-                "corner_radius": 4
-              },
-              "content_alignment_vertical": "center",
-              "items": [
-                {
-                  "background": [
-                    {
-                      "$color": "first_team_background_color",
-                      "type": "solid"
-                    }
-                  ],
-                  "items": [
-                    {
-                      "$image_url": "first_team_logo",
-                      "alignment_vertical": "center",
-                      "height": {
-                        "type": "fixed",
-                        "value": 24
-                      },
-                      "scale": "fit",
-                      "type": "image",
-                      "width": {
-                        "type": "fixed",
-                        "value": 24
-                      }
-                    }
-                  ],
-                  "orientation": "horizontal",
-                  "paddings": {
-                    "bottom": 4,
-                    "left": 8,
-                    "right": 8,
-                    "top": 4
-                  },
-                  "type": "container",
-                  "width": {
-                    "type": "wrap_content"
-                  }
-                },
-                {
-                  "background": [
-                    {
-                      "$color": "second_team_background_color",
-                      "type": "solid"
-                    }
-                  ],
-                  "items": [
-                    {
-                      "$image_url": "second_team_logo",
-                      "alignment_vertical": "center",
-                      "height": {
-                        "type": "fixed",
-                        "value": 24
-                      },
-                      "scale": "fit",
-                      "type": "image",
-                      "width": {
-                        "type": "fixed",
-                        "value": 24
-                      }
-                    }
-                  ],
-                  "orientation": "horizontal",
-                  "paddings": {
-                    "bottom": 4,
-                    "left": 8,
-                    "right": 8,
-                    "top": 4
-                  },
-                  "type": "container",
-                  "width": {
-                    "type": "wrap_content"
-                  }
-                }
-              ],
-              "orientation": "horizontal",
-              "type": "container",
-              "width": {
-                "type": "wrap_content"
-              }
-            }
-          ],
-          "paddings": {
-            "bottom": 8,
-            "left": 8,
-            "right": 8,
-            "top": 8
-          },
-          "type": "container"
+          "type": "nhl_game"
         },
         {
           "$text": "title",
@@ -440,6 +334,34 @@
         "value": 240
       }
     },
+    "nhl_game": {
+      "background": [
+        {
+          "$image_url": "image",
+          "content_alignment_horizontal": "left",
+          "type": "image"
+        }
+      ],
+      "height": {
+        "type": "fixed",
+        "value": 136
+      },
+      "items": [
+        {
+          "type": "nhl_game_badge"
+        },
+        {
+          "type": "nhl_game_teams"
+        }
+      ],
+      "paddings": {
+        "bottom": 8,
+        "left": 8,
+        "right": 8,
+        "top": 8
+      },
+      "type": "container"
+    },
     "nhl_game_badge": {
       "alignment_vertical": "top",
       "font_size": 12,
@@ -451,6 +373,90 @@
       "text": "Прямая трансляция",
       "text_color": "#ffffff",
       "type": "text"
+    },
+    "nhl_game_teams": {
+      "alignment_vertical": "bottom",
+      "border": {
+        "corner_radius": 4
+      },
+      "content_alignment_vertical": "center",
+      "items": [
+        {
+          "background": [
+            {
+              "$color": "first_team_background_color",
+              "type": "solid"
+            }
+          ],
+          "items": [
+            {
+              "$image_url": "first_team_logo",
+              "alignment_vertical": "center",
+              "height": {
+                "type": "fixed",
+                "value": 24
+              },
+              "scale": "fit",
+              "type": "image",
+              "width": {
+                "type": "fixed",
+                "value": 24
+              }
+            }
+          ],
+          "orientation": "horizontal",
+          "paddings": {
+            "bottom": 4,
+            "left": 8,
+            "right": 8,
+            "top": 4
+          },
+          "type": "container",
+          "width": {
+            "type": "wrap_content"
+          }
+        },
+        {
+          "background": [
+            {
+              "$color": "second_team_background_color",
+              "type": "solid"
+            }
+          ],
+          "items": [
+            {
+              "$image_url": "second_team_logo",
+              "alignment_vertical": "center",
+              "height": {
+                "type": "fixed",
+                "value": 24
+              },
+              "scale": "fit",
+              "type": "image",
+              "width": {
+                "type": "fixed",
+                "value": 24
+              }
+            }
+          ],
+          "orientation": "horizontal",
+          "paddings": {
+            "bottom": 4,
+            "left": 8,
+            "right": 8,
+            "top": 4
+          },
+          "type": "container",
+          "width": {
+            "type": "wrap_content"
+          }
+        }
+      ],
+      "orientation": "horizontal",
+      "type": "container",
+      "width": {
+        "type": "wrap_content"
+      }
     },
     "title_menu": {
       "height": {
