@@ -342,6 +342,7 @@
           "type": "image"
         }
       ],
+      "column_count": 2,
       "height": {
         "type": "fixed",
         "value": 136
@@ -349,6 +350,9 @@
       "items": [
         {
           "type": "nhl_game_badge"
+        },
+        {
+          "type": "nhl_game_spacer"
         },
         {
           "type": "nhl_game_teams"
@@ -360,10 +364,11 @@
         "right": 8,
         "top": 8
       },
-      "type": "container"
+      "type": "grid"
     },
     "nhl_game_badge": {
       "alignment_vertical": "top",
+      "column_span": 2,
       "font_size": 12,
       "height": {
         "type": "wrap_content"
@@ -373,6 +378,17 @@
       "text": "Прямая трансляция",
       "text_color": "#ffffff",
       "type": "text"
+    },
+    "nhl_game_spacer": {
+      "column_span": 2,
+      "delimiter_style": {
+        "color": "#00000000"
+      },
+      "height": {
+        "type": "match_parent",
+        "weight": 1
+      },
+      "type": "separator"
     },
     "nhl_game_teams": {
       "alignment_vertical": "bottom",
