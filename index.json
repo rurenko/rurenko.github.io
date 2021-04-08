@@ -1,581 +1,132 @@
 {
-  "card": {
-    "log_id": "nhl_card",
-    "states": [
+  "templates":{
+    "label":{
+      "type":"text",
+      "height":{
+        "type":"fixed",
+        "value":48
+      },
+      "paddings":{
+        "left":16,
+        "right":16
+      },
+      "background":[
+        {
+          "type":"solid",
+          "color":"#F32393"
+        }
+      ],
+      "border":{
+        "corner_radius":4
+      },
+      "font_size":16,
+      "font_weight":"medium",
+      "max_lines":1,
+      "text_alignment_horizontal":"center",
+      "text_alignment_vertical":"center",
+      "text_color":"#FFFFFF"
+    },
+    "hstack":{
+      "type":"container",
+      "margins":{
+        "left":8,
+        "top":8,
+        "right":8,
+        "bottom":8
+      },
+      "paddings":{
+        "left":16,
+        "top":16,
+        "right":16,
+        "bottom":16
+      },
+      "background":[
+        {
+          "type":"solid",
+          "color":"#FFFFFF"
+        }
+      ],
+      "border":{
+        "corner_radius":8,
+        "has_shadow":1
+      },
+      "orientation":"horizontal"
+    }
+  },
+  "card":{
+    "log_id":"person_card",
+    "states":[
       {
-        "div": {
-          "nhl_button_action_link": "http://ya.ru",
-          "tab_items_link": [
+        "state_id":0,
+        "div":{
+          "type":"hstack",
+          "items":[
             {
-              "div": {
-                "height": {
-                  "type": "fixed",
-                  "value": 212
-                },
-                "items": [
-                  {
-                    "first_team_background_color": "#fc4513",
-                    "first_team_logo": "https://tinyurl.com/y6rlvf9o",
-                    "footer": "Идёт 2-й перерыв",
-                    "game_bage_text": "Прямая трансляция",
-                    "game_time": "1:04:17",
-                    "image": "https://tinyurl.com/y45dls8m",
-                    "nhl_gallery_item_action_link": "http://ya.ru",
-                    "second_team_background_color": "#CE1126",
-                    "second_team_logo": "https://tinyurl.com/yyhuazfa",
-                    "title": "Филадельфия —  Нью-Джерси",
-                    "type": "nhl_gallery_item"
-                  },
-                  {
-                    "first_team_background_color": "#E21736",
-                    "first_team_logo": "https://tinyurl.com/yynfa9vc",
-                    "footer": "Матч окончен",
-                    "game_bage_text": "Прямая трансляция",
-                    "game_time": "1:04:17",
-                    "image": "https://tinyurl.com/yyj49o57",
-                    "nhl_gallery_item_action_link": "http://ya.ru",
-                    "second_team_background_color": "#FCB514",
-                    "second_team_logo": "https://tinyurl.com/yxc7vnws",
-                    "title": "Детройт — Питсбург",
-                    "type": "nhl_gallery_item"
-                  },
-                  {
-                    "first_team_background_color": "#fc4513",
-                    "first_team_logo": "https://tinyurl.com/y6rlvf9o",
-                    "footer": "Матч окончен",
-                    "game_bage_text": "Прямая трансляция",
-                    "game_time": "1:04:17",
-                    "image": "https://tinyurl.com/y45dls8m",
-                    "nhl_gallery_item_action_link": "http://ya.ru",
-                    "second_team_background_color": "#CE1126",
-                    "second_team_logo": "https://tinyurl.com/yyhuazfa",
-                    "title": "Филадельфия —  Нью-Джерси",
-                    "type": "nhl_gallery_item"
-                  },
-                  {
-                    "first_team_background_color": "#E21736",
-                    "first_team_logo": "https://tinyurl.com/yynfa9vc",
-                    "footer": "Матч окончен",
-                    "game_bage_text": "Прямая трансляция",
-                    "game_time": "1:04:17",
-                    "image": "https://tinyurl.com/yyj49o57",
-                    "nhl_gallery_item_action_link": "http://ya.ru",
-                    "second_team_background_color": "#FCB514",
-                    "second_team_logo": "https://tinyurl.com/yxc7vnws",
-                    "title": "Детройт — Питсбург",
-                    "type": "nhl_gallery_item"
-                  },
-                  {
-                    "first_team_background_color": "#fc4513",
-                    "first_team_logo": "https://tinyurl.com/y6rlvf9o",
-                    "footer": "Матч окончен",
-                    "game_bage_text": "Прямая трансляция",
-                    "game_time": "1:04:17",
-                    "image": "https://tinyurl.com/y45dls8m",
-                    "nhl_gallery_item_action_link": "http://ya.ru",
-                    "second_team_background_color": "#CE1126",
-                    "second_team_logo": "https://tinyurl.com/yyhuazfa",
-                    "title": "Филадельфия —  Нью-Джерси",
-                    "type": "nhl_gallery_item"
-                  },
-                  {
-                    "tail_text_link": "Все новости района",
-                    "type": "gallery_tail"
-                  }
-                ],
-                "paddings": {
-                  "left": 16,
-                  "right": 16
-                },
-                "type": "gallery",
-                "width": {
-                  "type": "match_parent",
-                  "value": 40
+              "type":"label",
+              "div_id":"id123",
+              "text":"Search 🤍",
+              "actions":[
+                {
+                  "log_id":"log_id",
+                  "url": "https://vk.com"
                 }
+              ],
+              "longtap-actions":[
+                {
+                  "log_id":"log_id"
+                }
+              ],
+              "action_animation": {
+                  "name": "set",
+                  "items": [
+                    {
+                        "name": "no_animation",
+                        "start_value": 1,
+                        "end_value": 0.6,
+                        "duration": 100
+                    },
+                    {
+                        "name": "scale",
+                        "start_value": 1,
+                        "end_value": 0.95,
+                        "duration": 100
+                    }
+                  ]
               },
-              "title": "СЕГОДНЯ"
             },
             {
-              "div": {
-                "height": {
-                  "type": "fixed",
-                  "value": 204
-                },
-                "items": [
-                  {
-                    "first_team_background_color": "#E21736",
-                    "first_team_logo": "https://tinyurl.com/y6rlvf9o",
-                    "footer": "Матч окончен",
-                    "game_bage_text": "Прямая трансляция",
-                    "game_time": "1:04:17",
-                    "image": "https://tinyurl.com/y45dls8m",
-                    "nhl_gallery_item_action_link": "http://ya.ru",
-                    "second_team_background_color": "#FCB514",
-                    "second_team_logo": "https://tinyurl.com/y6rlvf9o",
-                    "title": "Тампа-Бэй —  Торонто",
-                    "type": "nhl_gallery_item"
-                  },
-                  {
-                    "tail_text_link": "Все новости района",
-                    "type": "gallery_tail"
-                  }
-                ],
-                "paddings": {
-                  "left": 16,
-                  "right": 16
-                },
-                "type": "gallery",
-                "width": {
-                  "type": "match_parent",
-                  "value": 40
-                }
+              "type": "custom",
+              "custom_type": "111",
+              "height":{
+                "type":"fixed",
+                "value":48
               },
-              "title": "ВОСТОК"
-            }
-          ],
-          "title_items": [
-            {
-              "text": "НХЛ. Сезон 2019—2020",
-              "type": "title_text"
+              "background":[
+                {
+                  "type":"solid",
+                  "color":"#0F0"
+                }
+              ],
+              "alignment_vertical": "center",
+              "alignment_horizontal": "center",
             },
             {
-              "action": {
-                "log_id": "menu",
-                "menu_items": [
-                  {
-                    "action": {
-                      "log_id": "settings",
-                      "url": "http://ya.ru"
-                    },
-                    "text": "Настройки ленты"
-                  },
-                  {
-                    "action": {
-                      "log_id": "hide",
-                      "url": "http://ya.ru"
-                    },
-                    "text": "Скрыть карточку"
-                  }
-                ]
+              "type": "custom",
+              "custom_type": "222",
+              "height":{
+                "type":"fixed",
+                "value":48
               },
-              "type": "title_menu"
+              "background":[
+                {
+                  "type":"solid",
+                  "color":"#00F"
+                }
+              ]
             }
-          ],
-          "type": "nhl_card"
-        },
-        "state_id": 1
+          ]
+        }
       }
     ]
-  },
-  "templates": {
-    "footer": {
-      "$action": "footer_action_link",
-      "font_size": 12,
-      "height": {
-        "type": "wrap_content",
-        "weight": 1
-      },
-      "letter_spacing": 0.75,
-      "line_height": 16,
-      "paddings": {
-        "bottom": 13,
-        "left": 16,
-        "top": 15
-      },
-      "text_alignment_vertical": "bottom",
-      "text_color": "#80000000",
-      "type": "text"
-    },
-    "gallery_tail": {
-      "$action": "gallery_tail_action_link",
-      "content_alignment_horizontal": "center",
-      "content_alignment_vertical": "center",
-      "height": {
-        "type": "match_parent"
-      },
-      "items": [
-        {
-          "background": [
-            {
-              "color": "#ffffff",
-              "type": "solid"
-            }
-          ],
-          "border": {
-            "corner_radius": 20
-          },
-          "height": {
-            "type": "fixed",
-            "value": 40
-          },
-          "image_url": "https://i.imgur.com/CPmGi24.png",
-          "placeholder_color": "#00ffffff",
-          "type": "image",
-          "width": {
-            "type": "fixed",
-            "value": 40
-          }
-        },
-        {
-          "$text": "tail_text_link",
-          "font_size": 14,
-          "height": {
-            "type": "wrap_content"
-          },
-          "line_height": 16,
-          "paddings": {
-            "bottom": 0,
-            "left": 0,
-            "right": 0,
-            "top": 10
-          },
-          "text_alignment_horizontal": "center",
-          "text_color": "#6b7a80",
-          "type": "text"
-        }
-      ],
-      "type": "container",
-      "width": {
-        "type": "fixed",
-        "value": 104
-      }
-    },
-    "nhl_card": {
-      "background": [
-        {
-          "color": "#ffffff",
-          "type": "solid"
-        }
-      ],
-      "height": {
-        "type": "wrap_content"
-      },
-      "items": [
-        {
-          "$items": "title_items",
-          "orientation": "horizontal",
-          "type": "container"
-        },
-        {
-          "$items": "tab_items_link",
-          "switch_tabs_by_content_swipe_enabled": 0,
-          "tab_title_style": {
-            "font_weight": "medium"
-          },
-          "title_paddings": {
-            "bottom": 8,
-            "left": 12,
-            "right": 12
-          },
-          "type": "tabs"
-        },
-        {
-          "text": "ВСЕ ИГРЫ СЕГОДНЯ",
-          "type": "footer"
-        }
-      ],
-      "orientation": "vertical",
-      "paddings": {
-        "bottom": 16
-      },
-      "type": "container"
-    },
-    "nhl_gallery_item": {
-      "action": {
-        "$url": "nhl_gallery_item_action_link",
-        "log_id": "nhl_item"
-      },
-      "background": [
-        {
-          "color": "#ffffff",
-          "type": "solid"
-        }
-      ],
-      "border": {
-        "corner_radius": 6,
-        "stroke": {
-          "color": "#E5E5E5"
-        }
-      },
-      "height": {
-        "type": "fixed",
-        "value": 212
-      },
-      "items": [
-        {
-          "type": "nhl_game"
-        },
-        {
-          "$text": "title",
-          "font_size": 16,
-          "height": {
-            "type": "wrap_content"
-          },
-          "line_height": 20,
-          "max_lines": 1,
-          "paddings": {
-            "top": 8
-          },
-          "text_color": "#000000",
-          "type": "text"
-        },
-        {
-          "$text": "footer",
-          "font_size": 14,
-          "height": {
-            "type": "wrap_content"
-          },
-          "line_height": 18,
-          "max_lines": 1,
-          "paddings": {
-            "top": 2
-          },
-          "type": "text"
-        }
-      ],
-      "orientation": "vertical",
-      "paddings": {
-        "bottom": 12,
-        "left": 12,
-        "right": 12,
-        "top": 0
-      },
-      "type": "container",
-      "width": {
-        "type": "fixed",
-        "value": 240
-      }
-    },
-    "nhl_game": {
-      "background": [
-        {
-          "$image_url": "image",
-          "content_alignment_horizontal": "left",
-          "type": "image"
-        }
-      ],
-      "column_count": 3,
-      "height": {
-        "type": "fixed",
-        "value": 136
-      },
-      "items": [
-        {
-          "type": "nhl_game_badge"
-        },
-        {
-          "type": "nhl_game_horizontal_spacer"
-        },
-        {
-          "type": "nhl_game_horizontal_spacer"
-        },
-        {
-          "type": "nhl_game_vertical_three_columns_spacer"
-        },
-        {
-          "type": "nhl_game_teams"
-        },
-        {
-          "type": "nhl_game_horizontal_spacer"
-        },
-        {
-          "type": "nhl_game_time"
-        }
-      ],
-      "paddings": {
-        "bottom": 8,
-        "left": 8,
-        "right": 8,
-        "top": 8
-      },
-      "type": "grid"
-    },
-    "nhl_game_badge": {
-      "$text": "game_bage_text",
-      "background": [
-        {
-          "color": "#99000000",
-          "type": "solid"
-        }
-      ],
-      "border": {
-        "corner_radius": 4
-      },
-      "font_size": 12,
-      "height": {
-        "type": "wrap_content"
-      },
-      "line_height": 16,
-      "max_lines": 1,
-      "paddings": {
-        "bottom": 1,
-        "left": 6,
-        "right": 6,
-        "top": 3
-      },
-      "text_color": "#ffffff",
-      "type": "text",
-      "width": {
-        "type": "wrap_content"
-      }
-    },
-    "nhl_game_horizontal_spacer": {
-      "delimiter_style": {
-        "color": "#00000000"
-      },
-      "type": "separator",
-      "width": {
-        "type": "match_parent",
-        "weight": 100
-      }
-    },
-    "nhl_game_teams": {
-      "alignment_vertical": "bottom",
-      "border": {
-        "corner_radius": 4
-      },
-      "content_alignment_vertical": "center",
-      "items": [
-        {
-          "background": [
-            {
-              "$color": "first_team_background_color",
-              "type": "solid"
-            }
-          ],
-          "items": [
-            {
-              "$image_url": "first_team_logo",
-              "alignment_vertical": "center",
-              "height": {
-                "type": "fixed",
-                "value": 24
-              },
-              "scale": "fit",
-              "type": "image",
-              "width": {
-                "type": "fixed",
-                "value": 24
-              }
-            }
-          ],
-          "orientation": "horizontal",
-          "paddings": {
-            "bottom": 4,
-            "left": 8,
-            "right": 8,
-            "top": 4
-          },
-          "type": "container",
-          "width": {
-            "type": "wrap_content"
-          }
-        },
-        {
-          "background": [
-            {
-              "$color": "second_team_background_color",
-              "type": "solid"
-            }
-          ],
-          "items": [
-            {
-              "$image_url": "second_team_logo",
-              "alignment_vertical": "center",
-              "height": {
-                "type": "fixed",
-                "value": 24
-              },
-              "scale": "fit",
-              "type": "image",
-              "width": {
-                "type": "fixed",
-                "value": 24
-              }
-            }
-          ],
-          "orientation": "horizontal",
-          "paddings": {
-            "bottom": 4,
-            "left": 8,
-            "right": 8,
-            "top": 4
-          },
-          "type": "container",
-          "width": {
-            "type": "wrap_content"
-          }
-        }
-      ],
-      "orientation": "horizontal",
-      "type": "container",
-      "width": {
-        "type": "wrap_content"
-      }
-    },
-    "nhl_game_time": {
-      "$text": "game_time",
-      "background": [
-        {
-          "color": "#99000000",
-          "type": "solid"
-        }
-      ],
-      "border": {
-        "corner_radius": 4
-      },
-      "font_size": 12,
-      "height": {
-        "type": "wrap_content"
-      },
-      "line_height": 16,
-      "max_lines": 1,
-      "paddings": {
-        "bottom": 1,
-        "left": 6,
-        "right": 6,
-        "top": 3
-      },
-      "text_color": "#ffffff",
-      "type": "text",
-      "width": {
-        "type": "wrap_content"
-      }
-    },
-    "nhl_game_vertical_three_columns_spacer": {
-      "column_span": 3,
-      "delimiter_style": {
-        "color": "#00000000"
-      },
-      "height": {
-        "type": "match_parent",
-        "weight": 100
-      },
-      "type": "separator"
-    },
-    "title_menu": {
-      "height": {
-        "type": "fixed",
-        "value": 44
-      },
-      "image_url": "https://i.imgur.com/qNJQKU8.png",
-      "type": "image",
-      "width": {
-        "type": "fixed",
-        "value": 44
-      }
-    },
-    "title_text": {
-      "font_size": 18,
-      "font_weight": "medium",
-      "line_height": 24,
-      "paddings": {
-        "left": 16,
-        "right": 16,
-        "top": 12
-      },
-      "text_color": "#CC000000",
-      "type": "text"
-    }
   }
 }
